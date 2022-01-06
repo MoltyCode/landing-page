@@ -16,7 +16,7 @@ const items = [
   },
   { name: "TELEGRAM", href: "https://telegram.me/moltycode", id: 3 },
   { name: "INSTAGRAM", href: "https://www.instagram.com/moltycode/", id: 4 },
-  { name: "DISCORD", href: "https://discord.gg/AptKJeUC", id: 5 },
+  { name: "DISCORD", href: "https://discord.gg/zkK29nhT3h", id: 5 },
 ];
 
 const App: FC = () => {
