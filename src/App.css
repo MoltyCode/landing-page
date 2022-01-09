@@ -8,7 +8,7 @@
 .blur-left {
   width: 350px;
   height: 350px;
-  background: #0077ff7e;
+  background: #0070f3;
   position: absolute;
   border-radius: 50%;
   filter: blur(220px);

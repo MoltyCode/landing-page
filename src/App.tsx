@@ -2,8 +2,9 @@ import ButtonComponent from "./components/buttonComponent";
 import LogoComponent from "./components/logo";
 import { Container, Text } from "@chakra-ui/layout";
 import { FC, useEffect, useState } from "react";
-import { Flex } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import { Link } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import "./App.css";
 
@@ -104,7 +105,15 @@ const App: FC = () => {
             ml={["4", "4", "4", "8", "28"]}
             fontSize="12px"
           >
-            © MoltyCode team
+            © MoltyCode team{" "}
+            <Link
+              isExternal
+              color="#0070f3"
+              ml="1"
+              href="https://github.com/MoltyCode/landing-page"
+            >
+              Source
+            </Link>
           </MotionText>
         </Flex>
         <Box
