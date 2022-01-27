@@ -45,6 +45,7 @@
     filter: hue-rotate(2000deg);
   }
 }
+
 @font-face {
   font-family: Aquire;
   src: url("fonts/AquireBold-8Ma60.otf");

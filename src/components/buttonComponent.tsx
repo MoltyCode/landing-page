@@ -8,7 +8,6 @@ interface ButtonProps {
 }
 
 const ButtonComponent: FC<ButtonProps> = (props): JSX.Element => {
-  
   return (
     <Link href={props.href} isExternal _hover={{ textDecoration: "none" }}>
       <Box
@@ -20,14 +19,14 @@ const ButtonComponent: FC<ButtonProps> = (props): JSX.Element => {
         bg="linear-gradient(35deg, #00C2FF, #FA00FF)"
       >
         <Button
+          w="full"
+          bg="#131313"
+          color="#f8fafd"
           _active={{}}
           _focus={{}}
           _hover={{}}
           h="45px"
           rounded="4"
-          w="full"
-          bg="#131313"
-          color="#f8fafd"
           zIndex="10"
         >
           {props.name}

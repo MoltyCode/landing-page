@@ -21,6 +21,7 @@ const items = [
 ];
 
 const App: FC = () => {
+
   const [showLogo, setShowLogo] = useState<boolean>(false);
 
   useEffect(() => {
@@ -126,6 +127,8 @@ const App: FC = () => {
       </Flex>
     </Container>
   );
+
 };
 
 export default App;
+

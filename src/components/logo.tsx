@@ -7,6 +7,7 @@ interface logocomp {
 }
 
 const LogoComponent: FC<logocomp> = (props) => {
+  
   const MotionText = motion(Text);
   const MotionFlex = motion(Flex);
 
@@ -33,6 +34,7 @@ const LogoComponent: FC<logocomp> = (props) => {
       </MotionText>
     </MotionFlex>
   );
+
 };
 
 export default LogoComponent;
