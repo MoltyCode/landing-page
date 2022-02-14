@@ -10,18 +10,18 @@ import "./App.css";
 
 const items = [
   { name: "GITHUB", href: "https://github.com/MoltyCode", id: 1 },
+  { name: "Pcode", href: "https://the-pcode.vercel.app/", id: 2 },
   {
     name: "YOUTUBE",
-    id: 2,
+    id: 3,
     href: "https://www.youtube.com/channel/UC_xSsrvz8GTxQ7Ykj7XQ35w",
   },
-  { name: "TELEGRAM", href: "https://telegram.me/moltycode", id: 3 },
-  { name: "INSTAGRAM", href: "https://www.instagram.com/moltycode/", id: 4 },
-  { name: "DISCORD", href: "https://discord.gg/zkK29nhT3h", id: 5 },
+  { name: "TELEGRAM", href: "https://telegram.me/moltycode", id: 4 },
+  { name: "INSTAGRAM", href: "https://www.instagram.com/moltycode/", id: 5 },
+  { name: "DISCORD", href: "https://discord.gg/zkK29nhT3h", id: 6 },
 ];
 
 const App: FC = () => {
-
   const [showLogo, setShowLogo] = useState<boolean>(false);
 
   useEffect(() => {
@@ -127,8 +127,6 @@ const App: FC = () => {
       </Flex>
     </Container>
   );
-
 };
 
 export default App;
-
