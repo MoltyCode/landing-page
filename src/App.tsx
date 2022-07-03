@@ -10,7 +10,7 @@ import "./App.css";
 
 const items = [
   { name: "GITHUB", href: "https://github.com/MoltyCode", id: 1 },
-  { name: "Pcode", href: "https://the-pcode.vercel.app/", id: 2 },
+  { name: "Pcode", href: "https://the-pcode.vercel.app/", id: 2 }, 
   {
     name: "YOUTUBE",
     id: 3,
@@ -20,7 +20,7 @@ const items = [
   { name: "INSTAGRAM", href: "https://www.instagram.com/moltycode/", id: 5 },
   { name: "DISCORD", href: "https://discord.gg/zkK29nhT3h", id: 6 },
 ];
-
+ 
 const App: FC = () => {
   const [showLogo, setShowLogo] = useState<boolean>(false);
 
